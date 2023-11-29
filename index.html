@@ -9,13 +9,6 @@
         background-color: #2E2C2D;
       }
 
-      ul {
-        list-style-type: none;
-        margin: 0;
-        overflow: hidden;
-        background-color: white;
-      }
-
       h1 {
         font-size: 100px;
         text-align: center;
@@ -59,7 +52,19 @@
         padding-left: 60px;
         text-align: left;
       }
+      
+      img {
+        width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
+      ul {
+        list-style-type: none;
+        margin: 0;
+        overflow: hidden;
+        background-color: white;
+      }
 
       li {
         display: inline;
@@ -123,45 +128,18 @@
         bottom: 20px;
       }
 
-      #blockD {
-        background-color: #96C5F7;
-        width: 450px;
-        height: 450px;
+      #blockD,
+      #blockE,
+      #blockF,
+      #blockG,
+      #blockH,
+      #blockI {
+        background-color: transparent;
+        width: 490px;
+        height: 490px;
         display: inline;
         float: left;
-        padding: 10px;
-        margin-left: 30px;
-      }
-
-      #blockE {
-        background-color: #A9D3FF;
-        width: 450px;
-        height: 450px;
-        display: inline;
-        float: left;
-        padding: 10px;
-        margin-right: 30px;
-      }
-
-      #blockF {
-        background-color: #A9D3FF;
-        width: 450px;
-        height: 450px;
-        display: inline;
-        float: left;
-        padding: 10px;
-        margin-left: 30px;
-      }
-
-      #blockG {
-        background-color: #96C5F7;
-        width: 450px;
-        height: 450px;
-        display: inline;
-        float: left;
-        padding: 10px;
-        margin-right: 30px;
-        margin-bottom: 30px;
+        padding: 5px;
       }
 
 
@@ -226,7 +204,7 @@
       }
 
       #containerPodcast {
-        width: 1000px;
+        width: 900px;
         height: 340px;
         background-color: #A9D3FF;
         clear: both;
@@ -234,16 +212,7 @@
         padding: 50;
       }
 
-      #blockSpacer {
-        background-color: transparent;
-        width: 100px;
-        height: 250px;
-        display: inline;
-        float: left;
-        margin: 30px;
-        margin-left: 80px;
-      }
-
+      #blockSpacer,
       #blockSpacer2 {
         background-color: transparent;
         width: 100px;
@@ -252,6 +221,15 @@
         float: left;
         margin: 30px;
         margin-left: 0px;
+      }
+      #blockSpacerImg {
+        background-color: transparent;
+        width: 100px;
+        height: 250px;
+        display: inline;
+        float: left;
+        margin: 30px;
+        margin-left: 270px;
       }
 
       #containerVerse {
@@ -307,16 +285,22 @@
 
     <div id="containerPhotos">
       <div id="blockD">
-        Insert image here.
+        <img src="Italy.JPG" alt="Rome">
       </div>
       <div id="blockE">
-        Insert image here.
+        <img src="Milan.jpg" alt="Milan river">
       </div>
       <div id="blockF">
-        Insert image here.
+        <img src="Food.jpg" alt="Venice">
       </div>
       <div id="blockG">
-        Insert image here.
+        <img src="windowsill.jpg" alt="Window">
+      </div>
+      <div id="blockH">
+        <img src="fireplace.jpg" alt="Fireplace">
+      </div>
+      <div id="blockI">
+        <img src="sister.jpg" alt="Sister">
       </div>
     </div>
 
@@ -400,6 +384,11 @@
             PODCAST
           </div>
         </h6>
+    </div>
+        <div id="blockSpacerImg">
+        <a href="https://www.youtube.com/@thehandlebarpodcast">
+<img src="handlebar.png" alt="Handlebar Podcast" style="width:275px;height:275px;">
+</a>
       </div>
     </div>
 
@@ -410,9 +399,7 @@
     </div>
 
     <div id="containerConnect">
-      <h2>
-        <a href="mailto:mr6mille@uwaterloo.ca"> Email</a>
-      </h2>
+      <p><a href="mailto:mr6mille@uwaterloo.com">Send email</a></p>
     </div>
   </body>
 </html>
