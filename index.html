@@ -9,10 +9,18 @@
         background-color: #2E2C2D;
       }
 
+      ul {
+        list-style-type: none;
+        margin: 0;
+        overflow: hidden;
+        background-color: white;
+      }
+
       h1 {
         font-size: 100px;
         text-align: center;
-        padding: 180px;
+        padding: 10px;
+        margin-top: 250;
       }
 
       h2 {
@@ -52,9 +60,43 @@
         text-align: left;
       }
 
+
+      li {
+        display: inline;
+        float: left;
+      }
+
+      li a {
+        display: block;
+        padding: 12px;
+        margin-left: 90;
+        text-decoration: none;
+      }
+
+      /* unvisited link */
+      a:link {
+        color: #F9B5AC;
+      }
+
+      /* visited link */
+      a:visited {
+        color: #F9B5AC;
+      }
+
+      /* mouse over link */
+      a:hover {
+        color: #aeaca8;
+      }
+
+      /* selected link */
+      a:active {
+        color: #aeaca8;
+      }
+
+
       #containerThisIsMe {
         width: 1000px;
-        height: 1500px;
+        height: 90px;
         background-color: transparent;
         clear: both;
       }
@@ -161,6 +203,21 @@
         margin-bottom: 100px;
       }
 
+      table {
+        border-collapse: collapse;
+        width: 75%;
+        text-align: center;
+        margin-top: 100px;
+        margin-left: 50px;
+      }
+
+      td,
+      th {
+        border: 2px solid #dddddd;
+        text-align: center;
+        padding: 40px;
+      }
+
       #blockChart {
         background-color: #EE7674;
         width: 845px;
@@ -222,15 +279,24 @@
 
     <!--Note how each of the solid coloured boxes we are working with this week are named with a custom ID. See the HTML ID tutorail on w3schools if this is new to you: https://www.w3schools.com/html/html_id.asp -->
 
-    <div id="containerThisIsMe">
+    <div id="Home">
       <h1>Meredith</h1>
       <h2>
         Meredith is a full time student who leads a small group of university students in her church community. She works at a coffee shop in her spare time and loves connecting with people.
       </h2>
-      <div id="blockA">
+      <div id="nav">
+        <ul>
+          <li><a href="#containerThisIsMe">ABOUT ME</a></li>
+          <li><a href="#containerPhotos">PHOTOS</a></li>
+          <li><a href="#containerCatchUP">WHAT'S NEW</a></li>
+          <li><a href="#containerConnect">CONTACT</a></li>
+        </ul>
       </div>
+    </div>
+
+    <div id="containerThisIsMe">
       <div id="blockB">
-        <h3> ABOUT
+        <h3> This is me
         </h3>
         <p> meredith is
         </p>
@@ -262,15 +328,47 @@
       <div id="blockBar3">
       </div>
       <h4>
-        CATCH UP
+        What's new
       </h4>
       <div id="blockChart">
         <h5>
-          WITH ME
+          with you?
         </h5>
         <p>
           What I've been watching:
         </p>
+        <table>
+          <tr>
+            <th>Movie name</th>
+            <th>Year</th>
+            <th>Genre</th>
+            <th>Rating</th>
+          </tr>
+          <tr>
+            <td>Love & Other Drugs</td>
+            <td>2010</td>
+            <td>Comedy/Romance</td>
+            <td>8.0</td>
+          </tr>
+          <tr>
+            <td>The Shack</td>
+            <td>2017</td>
+            <td>Fantasy/Thriller</td>
+            <td>9.2</td>
+          </tr>
+          <tr>
+            <td>While You Were Sleeping</td>
+            <td>1995</td>
+            <td>Comedy/Romance</td>
+            <td>9.5</td>
+          </tr>
+          <tr>
+            <td>Interstellar</td>
+            <td>2014</td>
+            <td>Sci-fi/Adventure</td>
+            <td>7.5</td>
+          </tr>
+        </table>
       </div>
     </div>
 
