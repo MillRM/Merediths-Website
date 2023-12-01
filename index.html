@@ -4,6 +4,7 @@
     <title>Meredith's Website</title>
     <meta charset="utf-8">
     <link href="https://fonts.cdnfonts.com/css/heebo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kumbh Sans" rel="stylesheet">
 
     <style>
       body {
@@ -21,7 +22,6 @@
 
       h1 {
         color: var(--Beige);
-        font-family: "Heebo", sans-serif;
         font-size: 325px;
         text-align: center;
       }
@@ -48,6 +48,13 @@
         padding-left: 50px;
       }
 
+      h5 {
+        font-size: 50px;
+        padding-top: 50px;
+        padding-left: 50px;
+        margin-bottom: 0px;
+      }
+
       h6 {
         font-size: 60px;
         text-align: left;
@@ -58,7 +65,10 @@
       }
 
       p {
-        padding-left: 60px;
+        font-size: 20px;
+        padding-left: 50px;
+        padding-bottom: 20px;
+        padding-right: 100px;
         text-align: left;
       }
 
@@ -72,7 +82,7 @@
         list-style-type: none;
         margin: 0;
         overflow: hidden;
-        background-color: white;
+        background-color: var(--Beige);
       }
 
       li {
@@ -124,12 +134,12 @@
         top: 0px;
         padding: 450px;
         padding-top: 225px;
+        padding-bottom: 100px;
       }
 
       #containerThisIsMe {
         width: 100%;
         height: 90px;
-        clear: both;
       }
 
       #blockB {
@@ -141,10 +151,10 @@
 
       #blockC {
         width: 33.33%;
-        height: 1200px;
+        height: 1000px;
         background-color: var(--Mustard);
         float: right;
-        margin-top: ;
+        margin-top: 200px;
       }
 
       #containerPhotos {
@@ -205,6 +215,16 @@
         float: left;
         margin-top: 20px;
         margin-bottom: 20px;
+      }
+      
+      #blockBar4, 
+      #blockBar5, {
+        background-color: var(--Beige);
+        width: 31%;
+        height: 50px;
+        display: inline;
+        float: left;
+        margin: 20px;
       }
 
       table {
@@ -296,15 +316,17 @@
 
     <div id="containerThisIsMe">
       <div id="blockB">
-        <h3> This is me
-        </h3>
-        <p> meredith is
-        </p>
+        <h5 style="color: white;">Who am I?</h5>
+        <p style="color: var(--Powder);">Hey there! I'm Meredith—a dynamic individual with a passion for community, creativity, and coffee. As a dedicated leader at my local church, I foster connections and create meaningful experiences within our small group. My commitment to fostering a sense of belonging extends beyond the spiritual realm; by day, I channel my energy as a skilled barista, crafting delicious beverages that not only satisfy taste buds but also create moments of joy for each customer.</p>
+        <p style="color: var(--Powder);">Film is my canvas for inspiration, and I find endless fascination in its ability to convey emotions, tell stories, and spark conversations. This love for the cinematic arts fuels my own creativity, allowing me to approach both work and life with a unique perspective.</p>
+        <p style="color: var(--Powder);">Welcome to a space where passion meets purpose, and where every interaction is an opportunity to create something beautiful. Join me in this journey of community, creativity, and, of course, a good cup of coffee.</p>
       </div>
       <div id="blockC">
-      </div>
+        <h3 style="color: white;"><br><br>What's<br>important<br>to me?</h3>
+        <p style="color: white;">Genuine connection is at the heart of everything I do. I believe in the power of meaningful relationships, built on trust, respect, and a true understanding of one another. In a world often filled with noise, I strive to create spaces where authenticity flourishes, and connections are not just made, but deeply felt.</p>
+        </div>
       <h6 style="color: var(--Beige);">
-        My photo album:
+        <br>A peek into<br>my photo album:
       </h6>
     </div>
 
@@ -330,24 +352,15 @@
     </div>
 
     <div id="containerWhatsNew">
-      <div id="blockBar1">
-      </div>
-      <div id="blockBar2">
-      </div>
-      <div id="blockBar3">
-      </div>
+      <div id="blockBar1"></div>
+      <div id="blockBar2"></div>
+      <div id="blockBar3"></div>
       <h4 style="color:var(--Charcoal);">
-        What's
-        <div>
-          new
-        </div>
+        What's<br>new
       </h4>
       <div id="blockWatching">
         <h4 style="color: white;">
-          with
-          <div>
-            you?
-          </div>
+          with<br>you?
         </h4>
         <h3 style="color: white;">
           What I've been watching:
@@ -393,16 +406,7 @@
         What I've been listening to:
       </h3>
       <h6 style="color:white;">
-        THE
-        <div>
-          HANDLE
-        </div>
-        <div>
-          BAR
-        </div>
-        <div>
-          PODCAST
-        </div>
+        THE<br>HANDLE<br>BAR<br>PODCAST
       </h6>
       <div id="blockSpacerImg">
         <a href="https://www.youtube.com/@thehandlebarpodcast">
@@ -413,8 +417,9 @@
 
     <div id="containerReading">
       <h3 style="color: var(--Mustard);">
-        What I've been reading:
-      </h3>
+        What I've been reading:</h3>
+      <div id="blockBar4"></div>
+      <div id="blockBar5"></div>
       <p style="text-align: right; color: white;">
         “Are two sparrows sold for a penny? Yet not one of them will fall to the ground outside your Father’s care. And even the very hairs of your head are numbered. So don’t be afraid; you are worth more than many sparrows”
       </p>
