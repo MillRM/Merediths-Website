@@ -19,7 +19,7 @@
         --Beige: #F3EED8;
         --Mustard: #E7B925;
       }
-
+      
       h1 {
         color: var(--Beige);
         font-size: 325px;
@@ -30,7 +30,7 @@
         font-size: 20px;
         text-align: center;
         padding: 225px;
-        padding-bottom: 100px;
+        padding-bottom: 10px;
         padding-top: 0px;
       }
 
@@ -81,6 +81,7 @@
       ul {
         list-style-type: none;
         margin: 0;
+        margin-top: 100px;
         overflow: hidden;
         background-color: var(--Beige);
       }
@@ -105,7 +106,7 @@
 
       /* visited link */
       a:visited {
-        color: var(--Powder);
+        color: var(--Charcoal);
       }
 
       /* mouse over link */
@@ -115,7 +116,7 @@
 
       /* selected link */
       a:active {
-        color: var(--Charcoal);
+        color: var(--Powder);
       }
 
       #containerMeredith {
@@ -288,6 +289,19 @@
         position: relative;
         padding-top: 50px;
       }
+      
+       .button {
+  background-color: var(--Beige);
+  border: none;
+  padding: 30px 64px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
     </style>
   </head>
 
@@ -429,7 +443,8 @@
     </div>
 
     <div id="containerConnect">
-      <h2 style="color: var(--Powder);"><a href="mailto:mr6mille@uwaterloo.com">Send me an email!</a></h2>
+    <h2>Have any questions? Let's Connect!</h2>
+      <h2><a href="mailto:mr6mille@uwaterloo.com" class="button">Send email</a></h2>
     </div>
   </body>
 </html>
